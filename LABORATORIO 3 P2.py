@@ -2,7 +2,6 @@
 print("Bienvenido al programa\n")
 print("REGISTRO DE VEHICULOS DE TRES EJES \n")
 cont=0 #contador para vehiculos de mayor peso de 22 toneladas
-c=0 #contador para division
 promedio=0
 suma=0
 lista=[]
@@ -16,7 +15,6 @@ while (True):
             else:
                 lista.append(peso)
                 suma+= peso
-                c+= 1
                 if(peso>=22):
                     cont+= 1
         promedio=sum(lista)/len(lista)
