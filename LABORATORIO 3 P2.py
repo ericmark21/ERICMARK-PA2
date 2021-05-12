@@ -1,7 +1,7 @@
 
 print("Bienvenido al programa\n")
 print("REGISTRO DE VEHICULOS DE TRES EJES \n")
-cont=0 #contador para vehiculos de mayor peso de 22 toneladas
+cont=0 
 promedio=0
 suma=0
 lista=[]
